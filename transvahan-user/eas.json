@@ -21,8 +21,8 @@
         "buildType": "apk"
       },
       "env": {
-        "API_BASE_URL": "https://pg23gzqqsa.ap-south-1.awsapprunner.com",
-        "WS_URL": "wss://pg23gzqqsa.ap-south-1.awsapprunner.com/ws",
+        "API_BASE_URL": "https://<APP_RUNNER_BACKEND_URL>",
+        "WS_URL": "wss://<APP_RUNNER_BACKEND_URL>/ws",
         "USE_MOCK": "false",
         "GOOGLE_MAPS_API_KEY": "AIzaSyC5ya2Rnn2eZ9bilsmq1ArOj8ItnRq_c10"
       }

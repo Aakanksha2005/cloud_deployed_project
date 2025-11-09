@@ -47,6 +47,12 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       WS_URL: wsUrl,
       USE_MOCK: useMock,
       GOOGLE_MAPS_API_KEY: googleMapsKey,
+      // after getting the error with missing env variables in EAS Build,
+      // paste the eas project here
+      // it should look like this:
+      // eas: {
+      //   projectId: "your-eas-project-id",
+      // },
     },
   };
 };
